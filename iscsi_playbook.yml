@@ -33,6 +33,7 @@
     loop:
       - { regexp: '^#node.session.auth.authmethod = CHAP$', line: 'node.session.auth.authmethod = CHAP' }
       - { regexp: '^#node.session.auth.username = username$', line: 'node.session.auth.username = meher' }
+      - { regexp: '^#node.session.auth.password = password$', line: 'node.session.auth.username = test1234' }
 
   - name: Restart the iscsid service
     systemd:
