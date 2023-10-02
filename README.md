@@ -1,1 +1,1 @@
-# Ansible_ISCSI_Playbook
+Simple playbook to configure iscsi target and initiator on linux
